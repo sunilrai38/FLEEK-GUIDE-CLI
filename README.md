@@ -1,22 +1,32 @@
 # FLEEK-GUIDE-CLI
 FLEEK GUIDE CLI
-👨🏻‍💻 Fleek CLI Guide 👨🏻‍💻
+
+
 Pre-Requirements 🛠
 Install node.js & npm
 node.js
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt install -y nodejs
+
+# curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+# sudo apt install -y nodejs
+
+
 npm
-sudo apt install nodejs npm
+# sudo apt install nodejs npm
+
 Install fleek CLI
-sudo npm install -g @fleek-platform/cli
+
+# sudo npm install -g @fleek-platform/cli
+
 Verify the Installation with
-fleek
+# fleek
+
 ![image](https://github.com/user-attachments/assets/0cf8b8a2-f1ed-4532-b44c-bf5a57f137d2)
 
 
 Login
-fleek login
+
+# fleek login
+
 Run the above command to get the login page link:
 
 Login with your Wallet and Email (both)
@@ -31,7 +41,10 @@ Back to Terminal & u could see a success message:
 
 
 Create a project
-fleek projects create
+
+# fleek projects create
+
+
 This will promt u to enter a project name: Enter anythinkanything u like:
 
 🔺🔺 If u see somethink like that (check ss given below), than dont do anythink, just do next process of Set up a simple page
@@ -40,14 +53,23 @@ This will promt u to enter a project name: Enter anythinkanything u like:
 
 
 Set up a simple page
+
 Create a New Directory
-mkdir ~/fleek-quick-start
+
+# mkdir ~/fleek-quick-start
+
 Navigate to it
-cd ~/fleek-quick-start
+
+# cd ~/fleek-quick-start
+
 Create a simple html page inside ~/fleek-quick-start
-echo "Hello world" > index.html
+
+# echo "Hello world" > index.html
 Setup a Fleek site
-fleek sites init
+
+# fleek sites init
+
+
 This will promt u to do many thinks, just follow the CLI instructions
 
 You’ll have to enter a name for the new site.
@@ -64,7 +86,9 @@ Check the below given SCREENSHOT for more clarification
 
 
 Deploy the Fleek site
-fleek sites deploy
+
+# fleek sites deploy
+
 ![image](https://github.com/user-attachments/assets/07550049-9e09-45b0-8acc-0ca6a29cbfe0)
 
 
